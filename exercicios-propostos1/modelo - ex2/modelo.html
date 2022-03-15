@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" href="estilo.css"><!--chama um arquivo css externo-->
+</head>
+<body >
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de Nascimento: 
+                <input type="number" name="txtano" id="txtano">
+            </p>
+            <p>Sexo: 
+                <input type="radio" name="radsex" id="masc">
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <input type="button" value="Verificar" onclick="verificar()">
+        </div>
+        <div id="result">
+            Preencha os dados para ver o resultado.
+        </div>
+        <!-- <img id="img" src="fotos/homem.jpg" alt="homem"> -->
+    </section>
+    <footer>
+        <p>&copy;Avelino Exercício JS - Curso em Vídeo</p>
+    </footer>
+    <script src="script.js"></script> <!--chama um arquivo js externo-->
+</body>
+</html>
