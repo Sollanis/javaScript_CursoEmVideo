@@ -1,0 +1,37 @@
+* {
+    margin: 0px; 
+}
+
+body{
+    background-color: rgb(57, 76, 108);
+    font: normal 15px Arial;
+ }
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: 15px auto;
+    box-shadow: 3px 5px 10px 0px rgba(0, 0, 0, 0.394); /*desloc x(lateral) , desloc y(vertical), desfoque, espalhamaento*/
+}
+
+select#display{
+    text-align: left;
+    width: 250px;
+}
+
+#txtn{
+    width: 20%;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
